@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href= "https://openweathermap.org/img/w/" />
+
+</head>
+  <body>
+    <header>
+      <div class="flex mb-4 h-60px">
+        <div class="w-1/5 name h-12 text-left text-lg">
+        <div class="w-3/5  h-12">
+          <div class="p-1">
+            <div class="bg-white flex items-center rounded-full shadow-xl mt-4">
+              <form class="infoForm" id="stateSearch">
+                <label form="state"></label>
+                <input type = "text" id="state">
+                <button id="Search">Search</button>
+              </form>
+              </div>
+          </div>
+        </div>
+        <div class="w-1/5  h-12 text-right align-middle name">
+        </div>
+      </div>
+  </header>
+</div>
+
+
+<div class = "forecast-box">
+  <div class = "current-day">today</div>
+  <div class = "forecast-text">
+    <p id = "temp-text">temp</p>
+    <p id = "wind-text">wind speed</p>
+    <p id = "humidity-text">humidity</p>
+    <p id = "uv-index-text">UV Index</p>
+    <img id = "icon"></image>
+  </div>
+  <div class = "forecast-display">
+    <p id = "temp"></p>
+    <p id = "wind"></p>
+    <p id = "humidity"></p>
+    <p id = "uv-index"></p>
+  </div>
+  <div class = "fd1">
+    <p id = "day1">tommorrow</p>
+  </div>
+  <div class = "fd2">
+    <p id = "day2">in two days</p>
+  </div>
+  <div class = "fd3">
+    <p id = "day3">in two days</p>
+  </div>
+  <div class = "fd4">
+    <p id = "day4">in three days</p>
+  </div>
+  <div class = "fd5">
+    <p id = "day5">in four days</p>
+  </div>
+  <div class = "forecast-fiveday1">
+    <p id = "temp1"></p>
+    <p id = "wind1"></p>
+    <p id = "humidity1"></p>
+    <p id = "uv-index1"></p>
+    <img id = "icon1"></image>
+  </div>
+  <div class = "forecast-fiveday2">
+    <p id = "temp2"></p>
+    <p id = "wind2"></p>
+    <p id = "humidity2"></p>
+    <p id = "uv-index2"></p>
+    <img id = "icon2"></image>
+  </div>
+  <div class = "forecast-fiveday3">
+    <p id = "temp3"></p>
+    <p id = "wind3"></p>
+    <p id = "humidity3"></p>
+    <p id = "uv-index3"></p>
+    <img id = "icon3"></image>
+  </div>
+  <div class = "forecast-fiveday4">
+    <p id = "temp4"></p>
+    <p id = "wind4"></p>
+    <p id = "humidity4"></p>
+    <p id = "uv-index4"></p>
+    <img id = "icon4"></image>
+  </div>
+  <div class = "forecast-fiveday5">
+    <p id = "temp5"></p>
+    <p id = "wind5"></p>
+    <p id = "humidity5"></p>
+    <p id = "uv-index5"></p>
+    <img id = "icon5"></image>
+  </div>  
+</div>
+</div>
+</div>
+</div>
+<script src = "script.js"></script>
+</body>
+</html>

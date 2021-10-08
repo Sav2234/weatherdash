@@ -1,0 +1,210 @@
+
+html, body { height: 100%; }
+
+.title{
+    text-align: center;
+    padding: 100px; 
+}
+
+.title:hover{
+   transform: scale(1.10);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 40px;;
+}
+
+
+header{
+    background-color: rgb(56, 108, 197);
+    color: rgb(22, 13, 13);
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.name h1{
+    margin: 20px;
+    
+}
+
+.infoForm{
+    color: black;
+    display: flex;
+    margin-left: 50px;
+}
+
+.forecast-display{
+float: left;
+background-color: lightblue;
+top: 100px;
+font-size: 60px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color: white;
+border: 70px;
+height: 550px;
+width: 200px;
+position: absolute;
+text-indent: 70px;
+left: 50px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    display: inline;
+}
+
+.Search{
+    background-color: lightlightblue;
+    display: flex;
+}
+
+.p-1{
+    padding: .25rem;
+    margin-left: 25px;
+    display: flex;
+}
+
+.forecast-text{
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    border: 70px;
+    height: 550px;
+    width: 925px;
+    left: 200px;
+    top: 100px;
+    position: absolute;
+    text-align: right;
+   
+    
+}
+
+.forecast-box{
+    background-color:rgb(56, 108, 197);
+    margin: 70px 70px;
+    position: relative;
+    height: 90%;
+    width: auto;
+}
+
+.forecast-fiveday1{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 70px;
+    left: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.forecast-fiveday2{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 70px;
+    left: 625px;
+    text-align: center;
+    font-size: 60px;
+}
+.forecast-fiveday3{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 70px;
+    left: 1200px;
+    text-align: center;
+    font-size: 60px;
+}
+.forecast-fiveday4{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 70px;
+    right: 650px;
+    text-align: center;
+    font-size: 60px;
+}
+.forecast-fiveday5{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    bottom: 70px;
+    right: 75px;
+    text-align: center;
+    font-size: 60px;
+}
+.fd1{
+    background-color: lightblue;
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 50px;
+    left: 25px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.fd2{
+    background-color: lightblue;
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 50px;
+    left: 600px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.fd3{
+    background-color: lightblue;
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 50px;
+    left: 1175px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.fd4{
+    background-color: lightblue;
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 50px;
+    right: 625px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.fd5{
+    background-color: lightblue;
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.current-day{
+    background-color: lightblue;
+    position: absolute;
+    height: 650px;
+    width: 1125px;
+    top: 25px;
+    left: 25px;
+    text-align: center;
+    font-size: 60px;
+}
