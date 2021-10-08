@@ -10,3 +10,4 @@ Instructions:
 if a city is present in multiple states (i.e Wilmington, DE/Wilmington, NC) only one will be shown
 
 please be sure to spell your desired city correctly or nothing will happen
+also please adjust your browser size as it may not fit your current screen
